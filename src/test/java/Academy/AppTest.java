@@ -11,7 +11,7 @@ public class AppTest
     extends TestCase
 {
     /**
-     * Create the test case
+     * Hello my name is Mona (second commit)
      *
      * @param testName name of the test case
      */

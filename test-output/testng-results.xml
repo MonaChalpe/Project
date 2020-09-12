@@ -2,73 +2,73 @@
 <testng-results ignored="0" total="4" passed="0" failed="0" skipped="4">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-23T19:31:15 IST" name="Suite" finished-at="2020-06-23T19:31:31 IST" duration-ms="15902">
+  <suite started-at="2020-09-12T15:23:42 IST" name="Suite" finished-at="2020-09-12T15:23:54 IST" duration-ms="12219">
     <groups>
     </groups>
-    <test started-at="2020-06-23T19:31:15 IST" name="Validating Navigation Bar is presnt or not" finished-at="2020-06-23T19:31:25 IST" duration-ms="10121">
+    <test started-at="2020-09-12T15:23:42 IST" name="Validating Navigation Bar is presnt or not" finished-at="2020-09-12T15:23:50 IST" duration-ms="7423">
       <class name="Academy.validateNavigation">
-        <test-method is-config="true" signature="initalize()[pri:0, instance:Academy.validateNavigation@59fd97a8]" started-at="2020-06-23T19:31:15 IST" name="initalize" finished-at="2020-06-23T19:31:25 IST" duration-ms="9887" status="FAIL">
+        <test-method is-config="true" signature="initalize()[pri:0, instance:Academy.validateNavigation@59fd97a8]" started-at="2020-09-12T15:23:42 IST" name="initalize" finished-at="2020-09-12T15:23:49 IST" duration-ms="7160" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 80
 Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
-System info: host: 'DESKTOP-6VKIIHK', ip: '192.168.43.199', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+System info: host: 'DESKTOP-6VKIIHK', ip: '192.168.43.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x00E40C83+1707139]
-Ordinal0 [0x00DA68F1+1075441]
-Ordinal0 [0x00D1DFC9+516041]
-Ordinal0 [0x00CB0554+66900]
-Ordinal0 [0x00CACCE2+52450]
-Ordinal0 [0x00CCBFD7+180183]
-Ordinal0 [0x00CCBDDD+179677]
-Ordinal0 [0x00CC9D4B+171339]
-Ordinal0 [0x00CB1D4A+73034]
-Ordinal0 [0x00CB2DC0+77248]
-Ordinal0 [0x00CB2D59+77145]
-Ordinal0 [0x00DBBB67+1162087]
-GetHandleVerifier [0x00EDA966+508998]
-GetHandleVerifier [0x00EDA6A4+508292]
-GetHandleVerifier [0x00EEF7B7+594583]
-GetHandleVerifier [0x00EDB1D6+511158]
-Ordinal0 [0x00DB402C+1130540]
-Ordinal0 [0x00DBD4CB+1168587]
-Ordinal0 [0x00DBD633+1168947]
-Ordinal0 [0x00DD5B35+1268533]
-BaseThreadInitThunk [0x75586359+25]
-RtlGetAppContainerNamedObjectPath [0x76FE7C24+228]
-RtlGetAppContainerNamedObjectPath [0x76FE7BF4+180]
+Ordinal0 [0x00970C83+1707139]
+Ordinal0 [0x008D68F1+1075441]
+Ordinal0 [0x0084DFC9+516041]
+Ordinal0 [0x007E0554+66900]
+Ordinal0 [0x007DCCE2+52450]
+Ordinal0 [0x007FBFD7+180183]
+Ordinal0 [0x007FBDDD+179677]
+Ordinal0 [0x007F9D4B+171339]
+Ordinal0 [0x007E1D4A+73034]
+Ordinal0 [0x007E2DC0+77248]
+Ordinal0 [0x007E2D59+77145]
+Ordinal0 [0x008EBB67+1162087]
+GetHandleVerifier [0x00A0A966+508998]
+GetHandleVerifier [0x00A0A6A4+508292]
+GetHandleVerifier [0x00A1F7B7+594583]
+GetHandleVerifier [0x00A0B1D6+511158]
+Ordinal0 [0x008E402C+1130540]
+Ordinal0 [0x008ED4CB+1168587]
+Ordinal0 [0x008ED633+1168947]
+Ordinal0 [0x00905B35+1268533]
+BaseThreadInitThunk [0x74FF6359+25]
+RtlGetAppContainerNamedObjectPath [0x77167C24+228]
+RtlGetAppContainerNamedObjectPath [0x77167BF4+180]
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
 Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
-System info: host: 'DESKTOP-6VKIIHK', ip: '192.168.43.199', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+System info: host: 'DESKTOP-6VKIIHK', ip: '192.168.43.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x00E40C83+1707139]
-Ordinal0 [0x00DA68F1+1075441]
-Ordinal0 [0x00D1DFC9+516041]
-Ordinal0 [0x00CB0554+66900]
-Ordinal0 [0x00CACCE2+52450]
-Ordinal0 [0x00CCBFD7+180183]
-Ordinal0 [0x00CCBDDD+179677]
-Ordinal0 [0x00CC9D4B+171339]
-Ordinal0 [0x00CB1D4A+73034]
-Ordinal0 [0x00CB2DC0+77248]
-Ordinal0 [0x00CB2D59+77145]
-Ordinal0 [0x00DBBB67+1162087]
-GetHandleVerifier [0x00EDA966+508998]
-GetHandleVerifier [0x00EDA6A4+508292]
-GetHandleVerifier [0x00EEF7B7+594583]
-GetHandleVerifier [0x00EDB1D6+511158]
-Ordinal0 [0x00DB402C+1130540]
-Ordinal0 [0x00DBD4CB+1168587]
-Ordinal0 [0x00DBD633+1168947]
-Ordinal0 [0x00DD5B35+1268533]
-BaseThreadInitThunk [0x75586359+25]
-RtlGetAppContainerNamedObjectPath [0x76FE7C24+228]
-RtlGetAppContainerNamedObjectPath [0x76FE7BF4+180]
+Ordinal0 [0x00970C83+1707139]
+Ordinal0 [0x008D68F1+1075441]
+Ordinal0 [0x0084DFC9+516041]
+Ordinal0 [0x007E0554+66900]
+Ordinal0 [0x007DCCE2+52450]
+Ordinal0 [0x007FBFD7+180183]
+Ordinal0 [0x007FBDDD+179677]
+Ordinal0 [0x007F9D4B+171339]
+Ordinal0 [0x007E1D4A+73034]
+Ordinal0 [0x007E2DC0+77248]
+Ordinal0 [0x007E2D59+77145]
+Ordinal0 [0x008EBB67+1162087]
+GetHandleVerifier [0x00A0A966+508998]
+GetHandleVerifier [0x00A0A6A4+508292]
+GetHandleVerifier [0x00A1F7B7+594583]
+GetHandleVerifier [0x00A0B1D6+511158]
+Ordinal0 [0x008E402C+1130540]
+Ordinal0 [0x008ED4CB+1168587]
+Ordinal0 [0x008ED633+1168947]
+Ordinal0 [0x00905B35+1268533]
+BaseThreadInitThunk [0x74FF6359+25]
+RtlGetAppContainerNamedObjectPath [0x77167C24+228]
+RtlGetAppContainerNamedObjectPath [0x77167BF4+180]
 
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -130,68 +130,68 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initalize -->
-        <test-method signature="ValidateWebNavigation()[pri:0, instance:Academy.validateNavigation@59fd97a8]" started-at="2020-06-23T19:31:25 IST" name="ValidateWebNavigation" finished-at="2020-06-23T19:31:25 IST" duration-ms="0" status="SKIP">
+        <test-method signature="ValidateWebNavigation()[pri:0, instance:Academy.validateNavigation@59fd97a8]" started-at="2020-09-12T15:23:49 IST" name="ValidateWebNavigation" finished-at="2020-09-12T15:23:49 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 80
 Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
-System info: host: 'DESKTOP-6VKIIHK', ip: '192.168.43.199', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+System info: host: 'DESKTOP-6VKIIHK', ip: '192.168.43.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x00E40C83+1707139]
-Ordinal0 [0x00DA68F1+1075441]
-Ordinal0 [0x00D1DFC9+516041]
-Ordinal0 [0x00CB0554+66900]
-Ordinal0 [0x00CACCE2+52450]
-Ordinal0 [0x00CCBFD7+180183]
-Ordinal0 [0x00CCBDDD+179677]
-Ordinal0 [0x00CC9D4B+171339]
-Ordinal0 [0x00CB1D4A+73034]
-Ordinal0 [0x00CB2DC0+77248]
-Ordinal0 [0x00CB2D59+77145]
-Ordinal0 [0x00DBBB67+1162087]
-GetHandleVerifier [0x00EDA966+508998]
-GetHandleVerifier [0x00EDA6A4+508292]
-GetHandleVerifier [0x00EEF7B7+594583]
-GetHandleVerifier [0x00EDB1D6+511158]
-Ordinal0 [0x00DB402C+1130540]
-Ordinal0 [0x00DBD4CB+1168587]
-Ordinal0 [0x00DBD633+1168947]
-Ordinal0 [0x00DD5B35+1268533]
-BaseThreadInitThunk [0x75586359+25]
-RtlGetAppContainerNamedObjectPath [0x76FE7C24+228]
-RtlGetAppContainerNamedObjectPath [0x76FE7BF4+180]
+Ordinal0 [0x00970C83+1707139]
+Ordinal0 [0x008D68F1+1075441]
+Ordinal0 [0x0084DFC9+516041]
+Ordinal0 [0x007E0554+66900]
+Ordinal0 [0x007DCCE2+52450]
+Ordinal0 [0x007FBFD7+180183]
+Ordinal0 [0x007FBDDD+179677]
+Ordinal0 [0x007F9D4B+171339]
+Ordinal0 [0x007E1D4A+73034]
+Ordinal0 [0x007E2DC0+77248]
+Ordinal0 [0x007E2D59+77145]
+Ordinal0 [0x008EBB67+1162087]
+GetHandleVerifier [0x00A0A966+508998]
+GetHandleVerifier [0x00A0A6A4+508292]
+GetHandleVerifier [0x00A1F7B7+594583]
+GetHandleVerifier [0x00A0B1D6+511158]
+Ordinal0 [0x008E402C+1130540]
+Ordinal0 [0x008ED4CB+1168587]
+Ordinal0 [0x008ED633+1168947]
+Ordinal0 [0x00905B35+1268533]
+BaseThreadInitThunk [0x74FF6359+25]
+RtlGetAppContainerNamedObjectPath [0x77167C24+228]
+RtlGetAppContainerNamedObjectPath [0x77167BF4+180]
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
 Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
-System info: host: 'DESKTOP-6VKIIHK', ip: '192.168.43.199', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+System info: host: 'DESKTOP-6VKIIHK', ip: '192.168.43.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x00E40C83+1707139]
-Ordinal0 [0x00DA68F1+1075441]
-Ordinal0 [0x00D1DFC9+516041]
-Ordinal0 [0x00CB0554+66900]
-Ordinal0 [0x00CACCE2+52450]
-Ordinal0 [0x00CCBFD7+180183]
-Ordinal0 [0x00CCBDDD+179677]
-Ordinal0 [0x00CC9D4B+171339]
-Ordinal0 [0x00CB1D4A+73034]
-Ordinal0 [0x00CB2DC0+77248]
-Ordinal0 [0x00CB2D59+77145]
-Ordinal0 [0x00DBBB67+1162087]
-GetHandleVerifier [0x00EDA966+508998]
-GetHandleVerifier [0x00EDA6A4+508292]
-GetHandleVerifier [0x00EEF7B7+594583]
-GetHandleVerifier [0x00EDB1D6+511158]
-Ordinal0 [0x00DB402C+1130540]
-Ordinal0 [0x00DBD4CB+1168587]
-Ordinal0 [0x00DBD633+1168947]
-Ordinal0 [0x00DD5B35+1268533]
-BaseThreadInitThunk [0x75586359+25]
-RtlGetAppContainerNamedObjectPath [0x76FE7C24+228]
-RtlGetAppContainerNamedObjectPath [0x76FE7BF4+180]
+Ordinal0 [0x00970C83+1707139]
+Ordinal0 [0x008D68F1+1075441]
+Ordinal0 [0x0084DFC9+516041]
+Ordinal0 [0x007E0554+66900]
+Ordinal0 [0x007DCCE2+52450]
+Ordinal0 [0x007FBFD7+180183]
+Ordinal0 [0x007FBDDD+179677]
+Ordinal0 [0x007F9D4B+171339]
+Ordinal0 [0x007E1D4A+73034]
+Ordinal0 [0x007E2DC0+77248]
+Ordinal0 [0x007E2D59+77145]
+Ordinal0 [0x008EBB67+1162087]
+GetHandleVerifier [0x00A0A966+508998]
+GetHandleVerifier [0x00A0A6A4+508292]
+GetHandleVerifier [0x00A1F7B7+594583]
+GetHandleVerifier [0x00A0B1D6+511158]
+Ordinal0 [0x008E402C+1130540]
+Ordinal0 [0x008ED4CB+1168587]
+Ordinal0 [0x008ED633+1168947]
+Ordinal0 [0x00905B35+1268533]
+BaseThreadInitThunk [0x74FF6359+25]
+RtlGetAppContainerNamedObjectPath [0x77167C24+228]
+RtlGetAppContainerNamedObjectPath [0x77167BF4+180]
 
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -253,78 +253,78 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateWebNavigation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Academy.validateNavigation@59fd97a8]" started-at="2020-06-23T19:31:25 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1592920885691" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Academy.validateNavigation@59fd97a8]" started-at="2020-09-12T15:23:50 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1599904430100" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Academy.validateNavigation -->
     </test> <!-- Validating Navigation Bar is presnt or not -->
-    <test started-at="2020-06-23T19:31:26 IST" name="Test" finished-at="2020-06-23T19:31:26 IST" duration-ms="16">
+    <test started-at="2020-09-12T15:23:50 IST" name="Test" finished-at="2020-09-12T15:23:50 IST" duration-ms="5">
     </test> <!-- Test -->
-    <test started-at="2020-06-23T19:31:26 IST" name="Validating Title is presnt or not" finished-at="2020-06-23T19:31:28 IST" duration-ms="2391">
+    <test started-at="2020-09-12T15:23:50 IST" name="Validating Title is presnt or not" finished-at="2020-09-12T15:23:52 IST" duration-ms="1929">
       <class name="Academy.validateTitle">
-        <test-method is-config="true" signature="initalize()[pri:0, instance:Academy.validateTitle@b9b00e0]" started-at="2020-06-23T19:31:26 IST" name="initalize" finished-at="2020-06-23T19:31:28 IST" duration-ms="2249" status="FAIL">
+        <test-method is-config="true" signature="initalize()[pri:0, instance:Academy.validateTitle@b9b00e0]" started-at="2020-09-12T15:23:50 IST" name="initalize" finished-at="2020-09-12T15:23:52 IST" duration-ms="1793" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 80
 Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
-System info: host: 'DESKTOP-6VKIIHK', ip: '192.168.43.199', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+System info: host: 'DESKTOP-6VKIIHK', ip: '192.168.43.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x00E40C83+1707139]
-Ordinal0 [0x00DA68F1+1075441]
-Ordinal0 [0x00D1DFC9+516041]
-Ordinal0 [0x00CB0554+66900]
-Ordinal0 [0x00CACCE2+52450]
-Ordinal0 [0x00CCBFD7+180183]
-Ordinal0 [0x00CCBDDD+179677]
-Ordinal0 [0x00CC9D4B+171339]
-Ordinal0 [0x00CB1D4A+73034]
-Ordinal0 [0x00CB2DC0+77248]
-Ordinal0 [0x00CB2D59+77145]
-Ordinal0 [0x00DBBB67+1162087]
-GetHandleVerifier [0x00EDA966+508998]
-GetHandleVerifier [0x00EDA6A4+508292]
-GetHandleVerifier [0x00EEF7B7+594583]
-GetHandleVerifier [0x00EDB1D6+511158]
-Ordinal0 [0x00DB402C+1130540]
-Ordinal0 [0x00DBD4CB+1168587]
-Ordinal0 [0x00DBD633+1168947]
-Ordinal0 [0x00DD5B35+1268533]
-BaseThreadInitThunk [0x75586359+25]
-RtlGetAppContainerNamedObjectPath [0x76FE7C24+228]
-RtlGetAppContainerNamedObjectPath [0x76FE7BF4+180]
+Ordinal0 [0x00970C83+1707139]
+Ordinal0 [0x008D68F1+1075441]
+Ordinal0 [0x0084DFC9+516041]
+Ordinal0 [0x007E0554+66900]
+Ordinal0 [0x007DCCE2+52450]
+Ordinal0 [0x007FBFD7+180183]
+Ordinal0 [0x007FBDDD+179677]
+Ordinal0 [0x007F9D4B+171339]
+Ordinal0 [0x007E1D4A+73034]
+Ordinal0 [0x007E2DC0+77248]
+Ordinal0 [0x007E2D59+77145]
+Ordinal0 [0x008EBB67+1162087]
+GetHandleVerifier [0x00A0A966+508998]
+GetHandleVerifier [0x00A0A6A4+508292]
+GetHandleVerifier [0x00A1F7B7+594583]
+GetHandleVerifier [0x00A0B1D6+511158]
+Ordinal0 [0x008E402C+1130540]
+Ordinal0 [0x008ED4CB+1168587]
+Ordinal0 [0x008ED633+1168947]
+Ordinal0 [0x00905B35+1268533]
+BaseThreadInitThunk [0x74FF6359+25]
+RtlGetAppContainerNamedObjectPath [0x77167C24+228]
+RtlGetAppContainerNamedObjectPath [0x77167BF4+180]
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
 Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
-System info: host: 'DESKTOP-6VKIIHK', ip: '192.168.43.199', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+System info: host: 'DESKTOP-6VKIIHK', ip: '192.168.43.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x00E40C83+1707139]
-Ordinal0 [0x00DA68F1+1075441]
-Ordinal0 [0x00D1DFC9+516041]
-Ordinal0 [0x00CB0554+66900]
-Ordinal0 [0x00CACCE2+52450]
-Ordinal0 [0x00CCBFD7+180183]
-Ordinal0 [0x00CCBDDD+179677]
-Ordinal0 [0x00CC9D4B+171339]
-Ordinal0 [0x00CB1D4A+73034]
-Ordinal0 [0x00CB2DC0+77248]
-Ordinal0 [0x00CB2D59+77145]
-Ordinal0 [0x00DBBB67+1162087]
-GetHandleVerifier [0x00EDA966+508998]
-GetHandleVerifier [0x00EDA6A4+508292]
-GetHandleVerifier [0x00EEF7B7+594583]
-GetHandleVerifier [0x00EDB1D6+511158]
-Ordinal0 [0x00DB402C+1130540]
-Ordinal0 [0x00DBD4CB+1168587]
-Ordinal0 [0x00DBD633+1168947]
-Ordinal0 [0x00DD5B35+1268533]
-BaseThreadInitThunk [0x75586359+25]
-RtlGetAppContainerNamedObjectPath [0x76FE7C24+228]
-RtlGetAppContainerNamedObjectPath [0x76FE7BF4+180]
+Ordinal0 [0x00970C83+1707139]
+Ordinal0 [0x008D68F1+1075441]
+Ordinal0 [0x0084DFC9+516041]
+Ordinal0 [0x007E0554+66900]
+Ordinal0 [0x007DCCE2+52450]
+Ordinal0 [0x007FBFD7+180183]
+Ordinal0 [0x007FBDDD+179677]
+Ordinal0 [0x007F9D4B+171339]
+Ordinal0 [0x007E1D4A+73034]
+Ordinal0 [0x007E2DC0+77248]
+Ordinal0 [0x007E2D59+77145]
+Ordinal0 [0x008EBB67+1162087]
+GetHandleVerifier [0x00A0A966+508998]
+GetHandleVerifier [0x00A0A6A4+508292]
+GetHandleVerifier [0x00A1F7B7+594583]
+GetHandleVerifier [0x00A0B1D6+511158]
+Ordinal0 [0x008E402C+1130540]
+Ordinal0 [0x008ED4CB+1168587]
+Ordinal0 [0x008ED633+1168947]
+Ordinal0 [0x00905B35+1268533]
+BaseThreadInitThunk [0x74FF6359+25]
+RtlGetAppContainerNamedObjectPath [0x77167C24+228]
+RtlGetAppContainerNamedObjectPath [0x77167BF4+180]
 
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -386,68 +386,68 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initalize -->
-        <test-method signature="ValidateWebTitle()[pri:0, instance:Academy.validateTitle@b9b00e0]" started-at="2020-06-23T19:31:28 IST" name="ValidateWebTitle" finished-at="2020-06-23T19:31:28 IST" duration-ms="0" status="SKIP">
+        <test-method signature="ValidateWebTitle()[pri:0, instance:Academy.validateTitle@b9b00e0]" started-at="2020-09-12T15:23:52 IST" name="ValidateWebTitle" finished-at="2020-09-12T15:23:52 IST" duration-ms="1" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 80
 Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
-System info: host: 'DESKTOP-6VKIIHK', ip: '192.168.43.199', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+System info: host: 'DESKTOP-6VKIIHK', ip: '192.168.43.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x00E40C83+1707139]
-Ordinal0 [0x00DA68F1+1075441]
-Ordinal0 [0x00D1DFC9+516041]
-Ordinal0 [0x00CB0554+66900]
-Ordinal0 [0x00CACCE2+52450]
-Ordinal0 [0x00CCBFD7+180183]
-Ordinal0 [0x00CCBDDD+179677]
-Ordinal0 [0x00CC9D4B+171339]
-Ordinal0 [0x00CB1D4A+73034]
-Ordinal0 [0x00CB2DC0+77248]
-Ordinal0 [0x00CB2D59+77145]
-Ordinal0 [0x00DBBB67+1162087]
-GetHandleVerifier [0x00EDA966+508998]
-GetHandleVerifier [0x00EDA6A4+508292]
-GetHandleVerifier [0x00EEF7B7+594583]
-GetHandleVerifier [0x00EDB1D6+511158]
-Ordinal0 [0x00DB402C+1130540]
-Ordinal0 [0x00DBD4CB+1168587]
-Ordinal0 [0x00DBD633+1168947]
-Ordinal0 [0x00DD5B35+1268533]
-BaseThreadInitThunk [0x75586359+25]
-RtlGetAppContainerNamedObjectPath [0x76FE7C24+228]
-RtlGetAppContainerNamedObjectPath [0x76FE7BF4+180]
+Ordinal0 [0x00970C83+1707139]
+Ordinal0 [0x008D68F1+1075441]
+Ordinal0 [0x0084DFC9+516041]
+Ordinal0 [0x007E0554+66900]
+Ordinal0 [0x007DCCE2+52450]
+Ordinal0 [0x007FBFD7+180183]
+Ordinal0 [0x007FBDDD+179677]
+Ordinal0 [0x007F9D4B+171339]
+Ordinal0 [0x007E1D4A+73034]
+Ordinal0 [0x007E2DC0+77248]
+Ordinal0 [0x007E2D59+77145]
+Ordinal0 [0x008EBB67+1162087]
+GetHandleVerifier [0x00A0A966+508998]
+GetHandleVerifier [0x00A0A6A4+508292]
+GetHandleVerifier [0x00A1F7B7+594583]
+GetHandleVerifier [0x00A0B1D6+511158]
+Ordinal0 [0x008E402C+1130540]
+Ordinal0 [0x008ED4CB+1168587]
+Ordinal0 [0x008ED633+1168947]
+Ordinal0 [0x00905B35+1268533]
+BaseThreadInitThunk [0x74FF6359+25]
+RtlGetAppContainerNamedObjectPath [0x77167C24+228]
+RtlGetAppContainerNamedObjectPath [0x77167BF4+180]
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
 Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
-System info: host: 'DESKTOP-6VKIIHK', ip: '192.168.43.199', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+System info: host: 'DESKTOP-6VKIIHK', ip: '192.168.43.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x00E40C83+1707139]
-Ordinal0 [0x00DA68F1+1075441]
-Ordinal0 [0x00D1DFC9+516041]
-Ordinal0 [0x00CB0554+66900]
-Ordinal0 [0x00CACCE2+52450]
-Ordinal0 [0x00CCBFD7+180183]
-Ordinal0 [0x00CCBDDD+179677]
-Ordinal0 [0x00CC9D4B+171339]
-Ordinal0 [0x00CB1D4A+73034]
-Ordinal0 [0x00CB2DC0+77248]
-Ordinal0 [0x00CB2D59+77145]
-Ordinal0 [0x00DBBB67+1162087]
-GetHandleVerifier [0x00EDA966+508998]
-GetHandleVerifier [0x00EDA6A4+508292]
-GetHandleVerifier [0x00EEF7B7+594583]
-GetHandleVerifier [0x00EDB1D6+511158]
-Ordinal0 [0x00DB402C+1130540]
-Ordinal0 [0x00DBD4CB+1168587]
-Ordinal0 [0x00DBD633+1168947]
-Ordinal0 [0x00DD5B35+1268533]
-BaseThreadInitThunk [0x75586359+25]
-RtlGetAppContainerNamedObjectPath [0x76FE7C24+228]
-RtlGetAppContainerNamedObjectPath [0x76FE7BF4+180]
+Ordinal0 [0x00970C83+1707139]
+Ordinal0 [0x008D68F1+1075441]
+Ordinal0 [0x0084DFC9+516041]
+Ordinal0 [0x007E0554+66900]
+Ordinal0 [0x007DCCE2+52450]
+Ordinal0 [0x007FBFD7+180183]
+Ordinal0 [0x007FBDDD+179677]
+Ordinal0 [0x007F9D4B+171339]
+Ordinal0 [0x007E1D4A+73034]
+Ordinal0 [0x007E2DC0+77248]
+Ordinal0 [0x007E2D59+77145]
+Ordinal0 [0x008EBB67+1162087]
+GetHandleVerifier [0x00A0A966+508998]
+GetHandleVerifier [0x00A0A6A4+508292]
+GetHandleVerifier [0x00A1F7B7+594583]
+GetHandleVerifier [0x00A0B1D6+511158]
+Ordinal0 [0x008E402C+1130540]
+Ordinal0 [0x008ED4CB+1168587]
+Ordinal0 [0x008ED633+1168947]
+Ordinal0 [0x00905B35+1268533]
+BaseThreadInitThunk [0x74FF6359+25]
+RtlGetAppContainerNamedObjectPath [0x77167C24+228]
+RtlGetAppContainerNamedObjectPath [0x77167BF4+180]
 
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -509,76 +509,76 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateWebTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Academy.validateTitle@b9b00e0]" started-at="2020-06-23T19:31:28 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1592920888594" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Academy.validateTitle@b9b00e0]" started-at="2020-09-12T15:23:52 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1599904432394" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Academy.validateTitle -->
     </test> <!-- Validating Title is presnt or not -->
-    <test started-at="2020-06-23T19:31:28 IST" name="Validating User Login" finished-at="2020-06-23T19:31:31 IST" duration-ms="2696">
+    <test started-at="2020-09-12T15:23:52 IST" name="Validating User Login" finished-at="2020-09-12T15:23:54 IST" duration-ms="2394">
       <class name="Academy.HomePage">
-        <test-method is-config="true" signature="initalize()[pri:0, instance:Academy.HomePage@5e600dd5]" started-at="2020-06-23T19:31:28 IST" name="initalize" finished-at="2020-06-23T19:31:31 IST" duration-ms="2627" status="FAIL">
+        <test-method is-config="true" signature="initalize()[pri:0, instance:Academy.HomePage@5e600dd5]" started-at="2020-09-12T15:23:52 IST" name="initalize" finished-at="2020-09-12T15:23:54 IST" duration-ms="2285" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 80
 Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
-System info: host: 'DESKTOP-6VKIIHK', ip: '192.168.43.199', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+System info: host: 'DESKTOP-6VKIIHK', ip: '192.168.43.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x00E40C83+1707139]
-Ordinal0 [0x00DA68F1+1075441]
-Ordinal0 [0x00D1DFC9+516041]
-Ordinal0 [0x00CB0554+66900]
-Ordinal0 [0x00CACCE2+52450]
-Ordinal0 [0x00CCBFD7+180183]
-Ordinal0 [0x00CCBDDD+179677]
-Ordinal0 [0x00CC9D4B+171339]
-Ordinal0 [0x00CB1D4A+73034]
-Ordinal0 [0x00CB2DC0+77248]
-Ordinal0 [0x00CB2D59+77145]
-Ordinal0 [0x00DBBB67+1162087]
-GetHandleVerifier [0x00EDA966+508998]
-GetHandleVerifier [0x00EDA6A4+508292]
-GetHandleVerifier [0x00EEF7B7+594583]
-GetHandleVerifier [0x00EDB1D6+511158]
-Ordinal0 [0x00DB402C+1130540]
-Ordinal0 [0x00DBD4CB+1168587]
-Ordinal0 [0x00DBD633+1168947]
-Ordinal0 [0x00DD5B35+1268533]
-BaseThreadInitThunk [0x75586359+25]
-RtlGetAppContainerNamedObjectPath [0x76FE7C24+228]
-RtlGetAppContainerNamedObjectPath [0x76FE7BF4+180]
+Ordinal0 [0x00970C83+1707139]
+Ordinal0 [0x008D68F1+1075441]
+Ordinal0 [0x0084DFC9+516041]
+Ordinal0 [0x007E0554+66900]
+Ordinal0 [0x007DCCE2+52450]
+Ordinal0 [0x007FBFD7+180183]
+Ordinal0 [0x007FBDDD+179677]
+Ordinal0 [0x007F9D4B+171339]
+Ordinal0 [0x007E1D4A+73034]
+Ordinal0 [0x007E2DC0+77248]
+Ordinal0 [0x007E2D59+77145]
+Ordinal0 [0x008EBB67+1162087]
+GetHandleVerifier [0x00A0A966+508998]
+GetHandleVerifier [0x00A0A6A4+508292]
+GetHandleVerifier [0x00A1F7B7+594583]
+GetHandleVerifier [0x00A0B1D6+511158]
+Ordinal0 [0x008E402C+1130540]
+Ordinal0 [0x008ED4CB+1168587]
+Ordinal0 [0x008ED633+1168947]
+Ordinal0 [0x00905B35+1268533]
+BaseThreadInitThunk [0x74FF6359+25]
+RtlGetAppContainerNamedObjectPath [0x77167C24+228]
+RtlGetAppContainerNamedObjectPath [0x77167BF4+180]
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
 Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
-System info: host: 'DESKTOP-6VKIIHK', ip: '192.168.43.199', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+System info: host: 'DESKTOP-6VKIIHK', ip: '192.168.43.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x00E40C83+1707139]
-Ordinal0 [0x00DA68F1+1075441]
-Ordinal0 [0x00D1DFC9+516041]
-Ordinal0 [0x00CB0554+66900]
-Ordinal0 [0x00CACCE2+52450]
-Ordinal0 [0x00CCBFD7+180183]
-Ordinal0 [0x00CCBDDD+179677]
-Ordinal0 [0x00CC9D4B+171339]
-Ordinal0 [0x00CB1D4A+73034]
-Ordinal0 [0x00CB2DC0+77248]
-Ordinal0 [0x00CB2D59+77145]
-Ordinal0 [0x00DBBB67+1162087]
-GetHandleVerifier [0x00EDA966+508998]
-GetHandleVerifier [0x00EDA6A4+508292]
-GetHandleVerifier [0x00EEF7B7+594583]
-GetHandleVerifier [0x00EDB1D6+511158]
-Ordinal0 [0x00DB402C+1130540]
-Ordinal0 [0x00DBD4CB+1168587]
-Ordinal0 [0x00DBD633+1168947]
-Ordinal0 [0x00DD5B35+1268533]
-BaseThreadInitThunk [0x75586359+25]
-RtlGetAppContainerNamedObjectPath [0x76FE7C24+228]
-RtlGetAppContainerNamedObjectPath [0x76FE7BF4+180]
+Ordinal0 [0x00970C83+1707139]
+Ordinal0 [0x008D68F1+1075441]
+Ordinal0 [0x0084DFC9+516041]
+Ordinal0 [0x007E0554+66900]
+Ordinal0 [0x007DCCE2+52450]
+Ordinal0 [0x007FBFD7+180183]
+Ordinal0 [0x007FBDDD+179677]
+Ordinal0 [0x007F9D4B+171339]
+Ordinal0 [0x007E1D4A+73034]
+Ordinal0 [0x007E2DC0+77248]
+Ordinal0 [0x007E2D59+77145]
+Ordinal0 [0x008EBB67+1162087]
+GetHandleVerifier [0x00A0A966+508998]
+GetHandleVerifier [0x00A0A6A4+508292]
+GetHandleVerifier [0x00A1F7B7+594583]
+GetHandleVerifier [0x00A0B1D6+511158]
+Ordinal0 [0x008E402C+1130540]
+Ordinal0 [0x008ED4CB+1168587]
+Ordinal0 [0x008ED633+1168947]
+Ordinal0 [0x00905B35+1268533]
+BaseThreadInitThunk [0x74FF6359+25]
+RtlGetAppContainerNamedObjectPath [0x77167C24+228]
+RtlGetAppContainerNamedObjectPath [0x77167BF4+180]
 
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -640,68 +640,68 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initalize -->
-        <test-method signature="ValidateWebUsers(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@5e600dd5]" started-at="2020-06-23T19:31:31 IST" name="ValidateWebUsers" data-provider="getData" finished-at="2020-06-23T19:31:31 IST" duration-ms="0" status="SKIP">
+        <test-method signature="ValidateWebUsers(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@5e600dd5]" started-at="2020-09-12T15:23:54 IST" name="ValidateWebUsers" data-provider="getData" finished-at="2020-09-12T15:23:54 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 80
 Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
-System info: host: 'DESKTOP-6VKIIHK', ip: '192.168.43.199', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+System info: host: 'DESKTOP-6VKIIHK', ip: '192.168.43.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x00E40C83+1707139]
-Ordinal0 [0x00DA68F1+1075441]
-Ordinal0 [0x00D1DFC9+516041]
-Ordinal0 [0x00CB0554+66900]
-Ordinal0 [0x00CACCE2+52450]
-Ordinal0 [0x00CCBFD7+180183]
-Ordinal0 [0x00CCBDDD+179677]
-Ordinal0 [0x00CC9D4B+171339]
-Ordinal0 [0x00CB1D4A+73034]
-Ordinal0 [0x00CB2DC0+77248]
-Ordinal0 [0x00CB2D59+77145]
-Ordinal0 [0x00DBBB67+1162087]
-GetHandleVerifier [0x00EDA966+508998]
-GetHandleVerifier [0x00EDA6A4+508292]
-GetHandleVerifier [0x00EEF7B7+594583]
-GetHandleVerifier [0x00EDB1D6+511158]
-Ordinal0 [0x00DB402C+1130540]
-Ordinal0 [0x00DBD4CB+1168587]
-Ordinal0 [0x00DBD633+1168947]
-Ordinal0 [0x00DD5B35+1268533]
-BaseThreadInitThunk [0x75586359+25]
-RtlGetAppContainerNamedObjectPath [0x76FE7C24+228]
-RtlGetAppContainerNamedObjectPath [0x76FE7BF4+180]
+Ordinal0 [0x00970C83+1707139]
+Ordinal0 [0x008D68F1+1075441]
+Ordinal0 [0x0084DFC9+516041]
+Ordinal0 [0x007E0554+66900]
+Ordinal0 [0x007DCCE2+52450]
+Ordinal0 [0x007FBFD7+180183]
+Ordinal0 [0x007FBDDD+179677]
+Ordinal0 [0x007F9D4B+171339]
+Ordinal0 [0x007E1D4A+73034]
+Ordinal0 [0x007E2DC0+77248]
+Ordinal0 [0x007E2D59+77145]
+Ordinal0 [0x008EBB67+1162087]
+GetHandleVerifier [0x00A0A966+508998]
+GetHandleVerifier [0x00A0A6A4+508292]
+GetHandleVerifier [0x00A1F7B7+594583]
+GetHandleVerifier [0x00A0B1D6+511158]
+Ordinal0 [0x008E402C+1130540]
+Ordinal0 [0x008ED4CB+1168587]
+Ordinal0 [0x008ED633+1168947]
+Ordinal0 [0x00905B35+1268533]
+BaseThreadInitThunk [0x74FF6359+25]
+RtlGetAppContainerNamedObjectPath [0x77167C24+228]
+RtlGetAppContainerNamedObjectPath [0x77167BF4+180]
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
 Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
-System info: host: 'DESKTOP-6VKIIHK', ip: '192.168.43.199', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+System info: host: 'DESKTOP-6VKIIHK', ip: '192.168.43.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x00E40C83+1707139]
-Ordinal0 [0x00DA68F1+1075441]
-Ordinal0 [0x00D1DFC9+516041]
-Ordinal0 [0x00CB0554+66900]
-Ordinal0 [0x00CACCE2+52450]
-Ordinal0 [0x00CCBFD7+180183]
-Ordinal0 [0x00CCBDDD+179677]
-Ordinal0 [0x00CC9D4B+171339]
-Ordinal0 [0x00CB1D4A+73034]
-Ordinal0 [0x00CB2DC0+77248]
-Ordinal0 [0x00CB2D59+77145]
-Ordinal0 [0x00DBBB67+1162087]
-GetHandleVerifier [0x00EDA966+508998]
-GetHandleVerifier [0x00EDA6A4+508292]
-GetHandleVerifier [0x00EEF7B7+594583]
-GetHandleVerifier [0x00EDB1D6+511158]
-Ordinal0 [0x00DB402C+1130540]
-Ordinal0 [0x00DBD4CB+1168587]
-Ordinal0 [0x00DBD633+1168947]
-Ordinal0 [0x00DD5B35+1268533]
-BaseThreadInitThunk [0x75586359+25]
-RtlGetAppContainerNamedObjectPath [0x76FE7C24+228]
-RtlGetAppContainerNamedObjectPath [0x76FE7BF4+180]
+Ordinal0 [0x00970C83+1707139]
+Ordinal0 [0x008D68F1+1075441]
+Ordinal0 [0x0084DFC9+516041]
+Ordinal0 [0x007E0554+66900]
+Ordinal0 [0x007DCCE2+52450]
+Ordinal0 [0x007FBFD7+180183]
+Ordinal0 [0x007FBDDD+179677]
+Ordinal0 [0x007F9D4B+171339]
+Ordinal0 [0x007E1D4A+73034]
+Ordinal0 [0x007E2DC0+77248]
+Ordinal0 [0x007E2D59+77145]
+Ordinal0 [0x008EBB67+1162087]
+GetHandleVerifier [0x00A0A966+508998]
+GetHandleVerifier [0x00A0A6A4+508292]
+GetHandleVerifier [0x00A1F7B7+594583]
+GetHandleVerifier [0x00A0B1D6+511158]
+Ordinal0 [0x008E402C+1130540]
+Ordinal0 [0x008ED4CB+1168587]
+Ordinal0 [0x008ED633+1168947]
+Ordinal0 [0x00905B35+1268533]
+BaseThreadInitThunk [0x74FF6359+25]
+RtlGetAppContainerNamedObjectPath [0x77167C24+228]
+RtlGetAppContainerNamedObjectPath [0x77167BF4+180]
 
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -763,68 +763,68 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateWebUsers -->
-        <test-method signature="ValidateWebUsers(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@5e600dd5]" started-at="2020-06-23T19:31:31 IST" name="ValidateWebUsers" data-provider="getData" finished-at="2020-06-23T19:31:31 IST" duration-ms="0" status="SKIP">
+        <test-method signature="ValidateWebUsers(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@5e600dd5]" started-at="2020-09-12T15:23:54 IST" name="ValidateWebUsers" data-provider="getData" finished-at="2020-09-12T15:23:54 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 80
 Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
-System info: host: 'DESKTOP-6VKIIHK', ip: '192.168.43.199', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+System info: host: 'DESKTOP-6VKIIHK', ip: '192.168.43.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x00E40C83+1707139]
-Ordinal0 [0x00DA68F1+1075441]
-Ordinal0 [0x00D1DFC9+516041]
-Ordinal0 [0x00CB0554+66900]
-Ordinal0 [0x00CACCE2+52450]
-Ordinal0 [0x00CCBFD7+180183]
-Ordinal0 [0x00CCBDDD+179677]
-Ordinal0 [0x00CC9D4B+171339]
-Ordinal0 [0x00CB1D4A+73034]
-Ordinal0 [0x00CB2DC0+77248]
-Ordinal0 [0x00CB2D59+77145]
-Ordinal0 [0x00DBBB67+1162087]
-GetHandleVerifier [0x00EDA966+508998]
-GetHandleVerifier [0x00EDA6A4+508292]
-GetHandleVerifier [0x00EEF7B7+594583]
-GetHandleVerifier [0x00EDB1D6+511158]
-Ordinal0 [0x00DB402C+1130540]
-Ordinal0 [0x00DBD4CB+1168587]
-Ordinal0 [0x00DBD633+1168947]
-Ordinal0 [0x00DD5B35+1268533]
-BaseThreadInitThunk [0x75586359+25]
-RtlGetAppContainerNamedObjectPath [0x76FE7C24+228]
-RtlGetAppContainerNamedObjectPath [0x76FE7BF4+180]
+Ordinal0 [0x00970C83+1707139]
+Ordinal0 [0x008D68F1+1075441]
+Ordinal0 [0x0084DFC9+516041]
+Ordinal0 [0x007E0554+66900]
+Ordinal0 [0x007DCCE2+52450]
+Ordinal0 [0x007FBFD7+180183]
+Ordinal0 [0x007FBDDD+179677]
+Ordinal0 [0x007F9D4B+171339]
+Ordinal0 [0x007E1D4A+73034]
+Ordinal0 [0x007E2DC0+77248]
+Ordinal0 [0x007E2D59+77145]
+Ordinal0 [0x008EBB67+1162087]
+GetHandleVerifier [0x00A0A966+508998]
+GetHandleVerifier [0x00A0A6A4+508292]
+GetHandleVerifier [0x00A1F7B7+594583]
+GetHandleVerifier [0x00A0B1D6+511158]
+Ordinal0 [0x008E402C+1130540]
+Ordinal0 [0x008ED4CB+1168587]
+Ordinal0 [0x008ED633+1168947]
+Ordinal0 [0x00905B35+1268533]
+BaseThreadInitThunk [0x74FF6359+25]
+RtlGetAppContainerNamedObjectPath [0x77167C24+228]
+RtlGetAppContainerNamedObjectPath [0x77167BF4+180]
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
 Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
-System info: host: 'DESKTOP-6VKIIHK', ip: '192.168.43.199', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+System info: host: 'DESKTOP-6VKIIHK', ip: '192.168.43.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x00E40C83+1707139]
-Ordinal0 [0x00DA68F1+1075441]
-Ordinal0 [0x00D1DFC9+516041]
-Ordinal0 [0x00CB0554+66900]
-Ordinal0 [0x00CACCE2+52450]
-Ordinal0 [0x00CCBFD7+180183]
-Ordinal0 [0x00CCBDDD+179677]
-Ordinal0 [0x00CC9D4B+171339]
-Ordinal0 [0x00CB1D4A+73034]
-Ordinal0 [0x00CB2DC0+77248]
-Ordinal0 [0x00CB2D59+77145]
-Ordinal0 [0x00DBBB67+1162087]
-GetHandleVerifier [0x00EDA966+508998]
-GetHandleVerifier [0x00EDA6A4+508292]
-GetHandleVerifier [0x00EEF7B7+594583]
-GetHandleVerifier [0x00EDB1D6+511158]
-Ordinal0 [0x00DB402C+1130540]
-Ordinal0 [0x00DBD4CB+1168587]
-Ordinal0 [0x00DBD633+1168947]
-Ordinal0 [0x00DD5B35+1268533]
-BaseThreadInitThunk [0x75586359+25]
-RtlGetAppContainerNamedObjectPath [0x76FE7C24+228]
-RtlGetAppContainerNamedObjectPath [0x76FE7BF4+180]
+Ordinal0 [0x00970C83+1707139]
+Ordinal0 [0x008D68F1+1075441]
+Ordinal0 [0x0084DFC9+516041]
+Ordinal0 [0x007E0554+66900]
+Ordinal0 [0x007DCCE2+52450]
+Ordinal0 [0x007FBFD7+180183]
+Ordinal0 [0x007FBDDD+179677]
+Ordinal0 [0x007F9D4B+171339]
+Ordinal0 [0x007E1D4A+73034]
+Ordinal0 [0x007E2DC0+77248]
+Ordinal0 [0x007E2D59+77145]
+Ordinal0 [0x008EBB67+1162087]
+GetHandleVerifier [0x00A0A966+508998]
+GetHandleVerifier [0x00A0A6A4+508292]
+GetHandleVerifier [0x00A1F7B7+594583]
+GetHandleVerifier [0x00A0B1D6+511158]
+Ordinal0 [0x008E402C+1130540]
+Ordinal0 [0x008ED4CB+1168587]
+Ordinal0 [0x008ED633+1168947]
+Ordinal0 [0x00905B35+1268533]
+BaseThreadInitThunk [0x74FF6359+25]
+RtlGetAppContainerNamedObjectPath [0x77167C24+228]
+RtlGetAppContainerNamedObjectPath [0x77167BF4+180]
 
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -886,7 +886,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateWebUsers -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Academy.HomePage@5e600dd5]" started-at="2020-06-23T19:31:31 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1592920891471" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Academy.HomePage@5e600dd5]" started-at="2020-09-12T15:23:54 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1599904434892" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
